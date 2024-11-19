@@ -16,9 +16,12 @@ export default function MenuSection({ setCart }: MenuSectionProps) {
         if (selectedFlavors.includes(flavor)) {
             setSelectedFlavors(selectedFlavors.filter((f) => f !== flavor));
         } else {
-            if (selectedSize === "Box" && selectedFlavors.length < 3) {
+            if (
+                selectedSize === "Box (30 count)" &&
+                selectedFlavors.length < 3
+            ) {
                 setSelectedFlavors([...selectedFlavors, flavor]);
-            } else if (selectedSize !== "Box") {
+            } else if (selectedSize !== "Box (30 count)") {
                 setSelectedFlavors([flavor]);
             }
         }
@@ -26,8 +29,9 @@ export default function MenuSection({ setCart }: MenuSectionProps) {
 
     const addToCart = () => {
         if (
-            (selectedSize !== "Box" && selectedFlavors.length === 1) ||
-            (selectedSize === "Box" &&
+            (selectedSize !== "Box (30 count)" &&
+                selectedFlavors.length === 1) ||
+            (selectedSize === "Box (30 count)" &&
                 selectedFlavors.length > 0 &&
                 selectedFlavors.length <= 3)
         ) {
@@ -126,9 +130,9 @@ export default function MenuSection({ setCart }: MenuSectionProps) {
                 <button
                     onClick={addToCart}
                     disabled={
-                        (selectedSize !== "Box" &&
+                        (selectedSize !== "Box (30 count)" &&
                             selectedFlavors.length !== 1) ||
-                        (selectedSize === "Box" &&
+                        (selectedSize === "Box (30 count)" &&
                             (selectedFlavors.length === 0 ||
                                 selectedFlavors.length > 3))
                     }

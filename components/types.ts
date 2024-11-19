@@ -19,7 +19,7 @@ export const FLAVORS = [
 export const SIZES = [
     { name: "Half Dozen", price: 15 },
     { name: "Dozen", price: 25 },
-    { name: "Box", price: 52 },
+    { name: "Box (30 count)", price: 52 },
 ];
 
 export const ADD_INS = ["Pecans", "Walnuts"];
