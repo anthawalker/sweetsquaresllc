@@ -26,7 +26,7 @@ export default function FeaturedSection() {
                 Our Featured Treats
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-4 text-center items-baseline gap-4">
-                <div className="mx-auto mt-8 justify-items-center">
+                <div className="mx-auto mt-8 justify-items-center w-full">
                     <Image
                         className="drop-shadow-2xl"
                         width={230}
@@ -39,7 +39,7 @@ export default function FeaturedSection() {
                         Banana Nut
                     </h4>
                 </div>
-                <div className="mx-auto mt-8 justify-items-center">
+                <div className="mx-auto mt-8 justify-items-center w-full">
                     <Image
                         className="drop-shadow-2xl"
                         width={230}
@@ -51,7 +51,7 @@ export default function FeaturedSection() {
                         Double Chocolate
                     </h4>
                 </div>
-                <div className="mx-auto mt-8 justify-items-center">
+                <div className="mx-auto mt-8 justify-items-center w-full">
                     <Image
                         className="drop-shadow-2xl"
                         width={230}
@@ -63,7 +63,7 @@ export default function FeaturedSection() {
                         Butter Pecan
                     </h4>
                 </div>
-                <div className="mx-auto mt-8 justify-items-center">
+                <div className="mx-auto mt-8 justify-items-center w-full">
                     <Image
                         className="drop-shadow-2xl"
                         width={200}
@@ -75,7 +75,7 @@ export default function FeaturedSection() {
                         Strawberry Creme
                     </h4>
                 </div>
-                <div className="mx-auto mt-8 justify-items-center">
+                <div className="mx-auto mt-8 justify-items-center w-full">
                     <Image
                         className="drop-shadow-2xl"
                         width={200}
@@ -87,7 +87,7 @@ export default function FeaturedSection() {
                         Lemon Ice Cream
                     </h4>
                 </div>
-                <div className="mx-auto mt-8 justify-items-center">
+                <div className="mx-auto mt-8 justify-items-center w-full">
                     <Image
                         className="drop-shadow-2xl"
                         width={200}
@@ -99,7 +99,7 @@ export default function FeaturedSection() {
                         Pumpkin Spice
                     </h4>
                 </div>
-                <div className="mx-auto mt-8 justify-items-center">
+                <div className="mx-auto mt-8 justify-items-center w-full">
                     <Image
                         className="drop-shadow-2xl"
                         width={210}
@@ -112,7 +112,7 @@ export default function FeaturedSection() {
                     </h4>
                 </div>
 
-                <div className="mx-auto mt-8 justify-items-center">
+                <div className="mx-auto mt-8 justify-items-center w-full">
                     <Image
                         className="drop-shadow-2xl"
                         width={250}
@@ -124,7 +124,7 @@ export default function FeaturedSection() {
                         Oreo Blast
                     </h4>
                 </div>
-                <div className="mx-auto mt-8 justify-items-center">
+                <div className="mx-auto mt-8 justify-items-center w-full">
                     <Image
                         className="drop-shadow-2xl"
                         width={230}
@@ -136,7 +136,7 @@ export default function FeaturedSection() {
                         Double Chocolate Confetti
                     </h4>
                 </div>
-                <div className="mx-auto mt-8 justify-items-center">
+                <div className="mx-auto mt-8 justify-items-center w-full">
                     <Image
                         className="drop-shadow-2xl"
                         width={210}
