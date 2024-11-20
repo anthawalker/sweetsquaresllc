@@ -88,14 +88,14 @@ export default function VideoSection() {
                 </div>
                 <div className="md:w-1/2">
                     <p
-                        className={`p-8 text-lg md:text-3xl text-gray-800 mb-6 ${firaSansCondensed.className}`}>
+                        className={`p-8 text-xl md:text-3xl text-center text-gray-800 mb-6 ${firaSansCondensed.className}`}>
                         Sweet Squares LLC began in 2018, during a difficult time
                         when one of our founders was battling cancer. To help
-                        with medical bills, we turned to our great-grandmother’s
-                        beloved sweet squares recipe, baking and selling them
-                        with love. What started as a way to make ends meet soon
-                        became a heartfelt journey to share our family’s
-                        traditions and faith, one sweet square at a time.
+                        with medical bills, we turned to our family’s beloved
+                        sweet squares recipe, baking and selling them with love.
+                        What started as a way to make ends meet soon became a
+                        heartfelt journey to share our family’s traditions and
+                        faith, one sweet square at a time.
                     </p>
                 </div>
             </div>

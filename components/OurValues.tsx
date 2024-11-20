@@ -32,7 +32,7 @@ export default function OurValues() {
                         <div className="md:w-1/2 p-8 text-center">
                             <h3 className="text-5xl">Faith</h3>
                             <p
-                                className={`${firaSansCondensed.className} text-lg md:text-3xl mt-2`}>
+                                className={`${firaSansCondensed.className} text-xl md:text-3xl mt-2`}>
                                 At Sweet Squares LLC, our mission is to honor
                                 God through our work and bring joy to our
                                 community with every bite of our homemade sweet
@@ -51,7 +51,7 @@ export default function OurValues() {
                         <div className="md:w-1/2 items-center p-8">
                             <h3 className="text-5xl">Family</h3>
                             <p
-                                className={`${firaSansCondensed.className} text-lg md:text-3xl mt-2`}>
+                                className={`${firaSansCondensed.className} text-xl md:text-3xl mt-2`}>
                                 This is more than a business – it’s a family
                                 legacy built on love and togetherness.
                             </p>
@@ -84,7 +84,7 @@ export default function OurValues() {
                         <div className="md:w-1/2 p-8 text-center">
                             <h3 className="text-5xl">Integrity</h3>
                             <p
-                                className={`${firaSansCondensed.className} text-lg md:text-3xl mt-2`}>
+                                className={`${firaSansCondensed.className} text-xl md:text-3xl mt-2`}>
                                 We are committed to using only natural
                                 ingredients, leaving out artificial additives
                                 and seed oils.
@@ -100,7 +100,7 @@ export default function OurValues() {
                         <div className="md:w-1/2 items-center p-8 text-center">
                             <h3 className="text-5xl">Quality</h3>
                             <p
-                                className={`${firaSansCondensed.className} text-lg md:text-3xl mt-2`}>
+                                className={`${firaSansCondensed.className} text-xl md:text-3xl mt-2`}>
                                 Every sweet square is carefully crafted to be
                                 the best dessert you’ve ever tasted.
                             </p>
@@ -113,7 +113,7 @@ export default function OurValues() {
                         </div>
                         <div className="md:w-1/2 p-8 relative flex justify-center items-center flex-col drop-shadow-2xl">
                             <Image
-                                src="/static/hand-01.png"
+                                src="/static/hand-3.png"
                                 alt="cross and cookie squares"
                                 width={295}
                                 height={394}
@@ -145,7 +145,7 @@ export default function OurValues() {
                         <div className="md:w-1/2 p-8 justify-center items-center flex flex-col">
                             <h3 className="text-5xl">Order Now!</h3>
                             <p
-                                className={`${firaSansCondensed.className} text-lg md:text-3xl mt-2`}>
+                                className={`${firaSansCondensed.className} text-xl md:text-3xl mt-2`}>
                                 Place your order today
                             </p>
                             <div className="mt-8 w-40 flex flex-col items-center">

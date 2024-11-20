@@ -95,9 +95,9 @@ export default function TraditionalValuesSection() {
                                 <p
                                     className={`text-small leading-4 mt-0 md:text-xl md:mt-6 ${firaSansCondensed.className}`}>
                                     Our sweet squares are made using our
-                                    great-grandmother’s timeless recipe,
-                                    preserving a family tradition that we
-                                    proudly share with every customer.
+                                    family’s timeless recipe, preserving a
+                                    family tradition that we proudly share with
+                                    every customer.
                                 </p>
                             </div>
                         </div>
