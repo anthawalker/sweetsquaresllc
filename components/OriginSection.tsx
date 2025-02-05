@@ -11,7 +11,7 @@ const firaSansCondensed = Fira_Sans_Condensed({
 });
 
 export default function VideoSection() {
-    const [isPlaying, setIsPlaying] = useState(false);
+    const [isPlaying, setIsPlaying] = useState(true);
     const videoRef = useRef<HTMLVideoElement>(null);
 
     const togglePlay = () => {
