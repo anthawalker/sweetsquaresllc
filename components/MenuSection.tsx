@@ -17,11 +17,11 @@ export default function MenuSection({ setCart }: MenuSectionProps) {
             setSelectedFlavors(selectedFlavors.filter((f) => f !== flavor));
         } else {
             if (
-                selectedSize === "Box (32 count)" &&
+                selectedSize === "Box (30 count)" &&
                 selectedFlavors.length < 3
             ) {
                 setSelectedFlavors([...selectedFlavors, flavor]);
-            } else if (selectedSize !== "Box (32 count)") {
+            } else if (selectedSize !== "Box (30 count)") {
                 setSelectedFlavors([flavor]);
             }
         }
@@ -29,9 +29,9 @@ export default function MenuSection({ setCart }: MenuSectionProps) {
 
     const addToCart = () => {
         if (
-            (selectedSize !== "Box (32 count)" &&
+            (selectedSize !== "Box (30 count)" &&
                 selectedFlavors.length === 1) ||
-            (selectedSize === "Box (32 count)" &&
+            (selectedSize === "Box (30 count)" &&
                 selectedFlavors.length > 0 &&
                 selectedFlavors.length <= 3)
         ) {
@@ -130,9 +130,9 @@ export default function MenuSection({ setCart }: MenuSectionProps) {
                 <button
                     onClick={addToCart}
                     disabled={
-                        (selectedSize !== "Box (32 count)" &&
+                        (selectedSize !== "Box (30 count)" &&
                             selectedFlavors.length !== 1) ||
-                        (selectedSize === "Box (32 count)" &&
+                        (selectedSize === "Box (30 count)" &&
                             (selectedFlavors.length === 0 ||
                                 selectedFlavors.length > 3))
                     }
@@ -140,7 +140,7 @@ export default function MenuSection({ setCart }: MenuSectionProps) {
                     Add to Cart
                 </button>
                 <p className="mt-4 text-sm text-gray-600">
-                    Note: For the 32 count option ($58), you can pick up to 3
+                    Note: For the 30 count option ($58), you can pick up to 3
                     flavors or multiple of the same flavor.
                 </p>
                 <p className="mt-2 text-sm text-red-600 font-semibold">
