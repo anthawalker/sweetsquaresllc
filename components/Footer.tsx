@@ -53,7 +53,8 @@ export default function Footer() {
                         <hr className="w-72" />
                         <p
                             className={`text-gray-800 font-semibold cursor-pointer ${firaSansCondensed.className}`}>
-                            Copyright © 2024 | Sweet Squares LLC
+                            Copyright © {new Date().getFullYear()} | Sweet
+                            Squares LLC
                         </p>
                     </div>
                     <div>
