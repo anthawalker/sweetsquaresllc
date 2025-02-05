@@ -140,8 +140,8 @@ export default function MenuSection({ setCart }: MenuSectionProps) {
                     Add to Cart
                 </button>
                 <p className="mt-4 text-sm text-gray-600">
-                    Note: For the box option ($58), you can pick up to 3 flavors
-                    or multiple of the same flavor.
+                    Note: For the 32 count option ($58), you can pick up to 3
+                    flavors or multiple of the same flavor.
                 </p>
                 <p className="mt-2 text-sm text-red-600 font-semibold">
                     Please place orders 3 to 5 days in advance for big orders.

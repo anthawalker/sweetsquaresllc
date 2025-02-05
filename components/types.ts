@@ -18,7 +18,7 @@ export const FLAVORS = [
     "Oreo Birthday Cake",
     "Blueberry Dream",
     "Reeses Butter Cup",
-    "Strawberyy Oreo",
+    "Strawberry Oreo",
     "Mint Chocolate Chip (Holidays)",
     "Gingerbread Glaze (Holidays)",
 ];
