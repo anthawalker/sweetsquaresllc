@@ -14,7 +14,7 @@ export const FLAVORS = [
     "Triple Chocolate",
     "Peanut Butter Chocolate Chip",
     "Straw Burst",
-    "White Choclate Macodamia Nut",
+    "White Choclate Macadamia Nut",
     "Oreo Birthday Cake",
     "Blueberry Dream",
     "Reeses Butter Cup",
