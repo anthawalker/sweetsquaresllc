@@ -4,7 +4,7 @@ interface CartSectionProps {
     cart: CartItem[];
     setCart: React.Dispatch<React.SetStateAction<CartItem[]>>;
     subtotal: number;
-    shippingCost: number;
+    // shippingCost: number;
     total: number;
     setShowOrderForm: React.Dispatch<React.SetStateAction<boolean>>;
 }
@@ -13,7 +13,7 @@ export default function CartSection({
     cart,
     setCart,
     subtotal,
-    shippingCost,
+    // shippingCost,
     total,
     setShowOrderForm,
 }: CartSectionProps) {
@@ -58,10 +58,10 @@ export default function CartSection({
                         <span>Subtotal:</span>{" "}
                         <span>${subtotal.toFixed(2)}</span>
                     </p>
-                    <p className="flex justify-between">
+                    {/* <p className="flex justify-between">
                         <span>Shipping:</span>{" "}
                         <span>${shippingCost.toFixed(2)}</span>
-                    </p>
+                    </p> */}
                     <p className="flex justify-between font-semibold">
                         <span>Total:</span> <span>${total.toFixed(2)}</span>
                     </p>

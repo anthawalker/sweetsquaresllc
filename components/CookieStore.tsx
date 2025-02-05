@@ -34,8 +34,8 @@ export default function CookieStore() {
     }, []);
 
     const subtotal = cart.reduce((sum, item) => sum + item.price, 0);
-    const shippingCost = 7.99;
-    const total = subtotal + shippingCost;
+    // const shippingCost = 7.99;
+    const total = subtotal;
 
     const handleOrderSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -60,7 +60,7 @@ export default function CookieStore() {
             address: orderDetails.address,
             order_details: orderItems,
             subtotal: subtotal.toFixed(2),
-            shipping: shippingCost.toFixed(2),
+            // shipping: shippingCost.toFixed(2),
             total: total.toFixed(2),
             payment_method: orderDetails.paymentMethod,
         };
@@ -74,7 +74,7 @@ export default function CookieStore() {
             phone: orderDetails.phone,
             address: orderDetails.address,
             subtotal: subtotal.toFixed(2),
-            shipping: shippingCost.toFixed(2),
+            // shipping: shippingCost.toFixed(2),
             total: total.toFixed(2),
             payment_method: orderDetails.paymentMethod,
             payment_details: getPaymentDetails(orderDetails.paymentMethod),
@@ -148,7 +148,7 @@ export default function CookieStore() {
                         cart={cart}
                         setCart={setCart}
                         subtotal={subtotal}
-                        shippingCost={shippingCost}
+                        // shippingCost={shippingCost}
                         total={total}
                         setShowOrderForm={setShowOrderForm}
                     />

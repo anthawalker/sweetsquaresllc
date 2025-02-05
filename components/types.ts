@@ -3,23 +3,30 @@ export const FLAVORS = [
     "Oreo Blast",
     "Chocolate Chip Pecan",
     "Chocolate Chip",
-    "Red Velvet",
+    "Red Velvet Cream",
     "Red Velvet Oreo",
     "Double Chocolate Confetti",
     "Strawberry Creme",
     "Pumpkin Spice",
     "Butter Pecan",
     "Lemon Ice",
+    "Oreo Lemon",
     "Triple Chocolate",
-    "Peanut Butter Chocolate",
+    "Peanut Butter Chocolate Chip",
     "Straw Burst",
-    "Birthday Cake",
+    "White Choclate Macodamia Nut",
+    "Oreo Birthday Cake",
+    "Blueberry Dream",
+    "Reeses Butter Cup",
+    "Strawberyy Oreo",
+    "Mint Chocolate Chip (Holidays)",
+    "Gingerbread Glaze (Holidays)",
 ];
 
 export const SIZES = [
-    { name: "Half Dozen", price: 15 },
-    { name: "Dozen", price: 25 },
-    { name: "Box (30 count)", price: 52 },
+    { name: "Half Dozen", price: 16 },
+    { name: "Dozen", price: 32 },
+    { name: "Box (32 count)", price: 58 },
 ];
 
 export const ADD_INS = ["Pecans", "Walnuts"];
