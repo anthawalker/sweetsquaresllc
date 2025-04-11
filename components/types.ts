@@ -21,12 +21,19 @@ export const FLAVORS = [
     "Strawberry Oreo",
     "Mint Chocolate Chip (Holidays)",
     "Gingerbread Glaze (Holidays)",
+    "Double chocolate Reese's",
+    "White Chocolate Chip Blast",
+    "Butter Scotch Pecan",
+    "White Chocolate Cranberry",
+    "White Chocolate Butterfinger (New)",
+    "King Cake Love (Seasonal)",
+    "Butterfinger Blitz (New)",
 ];
 
 export const SIZES = [
-    { name: "Half Dozen", price: 16 },
-    { name: "Dozen", price: 32 },
-    { name: "Box (30 count)", price: 58 },
+    { name: "Half Dozen", price: 18 },
+    { name: "Dozen", price: 34 },
+    { name: "Box (30 count)", price: 60 },
 ];
 
 export const ADD_INS = ["Pecans", "Walnuts"];
