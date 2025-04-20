@@ -28,6 +28,7 @@ export const FLAVORS = [
     "White Chocolate Butterfinger (New)",
     "King Cake Love (Seasonal)",
     "Butterfinger Blitz (New)",
+    "Honey Bun Swirl",
 ];
 
 export const SIZES = [
