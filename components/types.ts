@@ -29,6 +29,14 @@ export const FLAVORS = [
     "King Cake Love (Seasonal)",
     "Butterfinger Blitz (New)",
     "Honey Bun Swirl",
+    "Coffee Love",
+    "Carrot Cake Delight",
+    "Pineapple Upside Down",
+    "Apple Turnover",
+    "S'mores Unlimited",
+    "Strawberry Cheesecake",
+    "Turtle Pecan",
+    "Banana Foster",
 ];
 
 export const SIZES = [
