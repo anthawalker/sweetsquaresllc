@@ -23,7 +23,7 @@ export default function OurValues() {
                         <div className="md:w-1/2 items-center p-8">
                             <Image
                                 src="/static/sweetsq-1.png"
-                                alt="cross and cookie squares"
+                                alt="cookie squares"
                                 width={500}
                                 height={280}
                                 className="mt-4 rounded-xl"
@@ -75,7 +75,7 @@ export default function OurValues() {
                         <div className="md:w-1/2 items-center p-8">
                             <Image
                                 src="/static/sweetsq-2.png"
-                                alt="cross and cookie squares"
+                                alt="seecond cookie squares"
                                 width={500}
                                 height={280}
                                 className="mt-4 rounded-xl"
