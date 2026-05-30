@@ -22,7 +22,7 @@ export default function OurValues() {
                     <div className="flex flex-col md:flex-row items-center gap-0 md:gap-8 mt-0 md:mt-8">
                         <div className="md:w-1/2 items-center p-8">
                             <Image
-                                src="/static/ABOUT-faith-img.png"
+                                src="/static/sweetsq-1.png"
                                 alt="cross and cookie squares"
                                 width={500}
                                 height={280}
@@ -74,7 +74,7 @@ export default function OurValues() {
                     <div className="flex flex-col md:flex-row items-center gap-0 md:gap-8 mt-0 md:mt-8">
                         <div className="md:w-1/2 items-center p-8">
                             <Image
-                                src="/static/ABOUT-integrity.png"
+                                src="/static/sweetsq-2.png"
                                 alt="cross and cookie squares"
                                 width={500}
                                 height={280}

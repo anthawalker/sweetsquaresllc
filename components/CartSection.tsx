@@ -66,8 +66,11 @@ export default function CartSection({
                         <span>Total:</span> <span>${total.toFixed(2)}</span>
                     </p>
                     <p className="mt-2 text-sm text-green-600 font-semibold">
-                        *Free delivery if you purchase one dozen or more and are
-                        located within the Greater Houston area.
+                        *Free Delivery on orders over $70 and located within the
+                        Greater Houston area. Pickup-only for small orders.
+                    </p>
+                    <p className="mt-2 text-sm text-green-600 font-semibold">
+                        *A deposit of $15 is required.
                     </p>
                 </div>
                 <button

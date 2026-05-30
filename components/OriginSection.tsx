@@ -46,7 +46,7 @@ export default function VideoSection() {
                                 <video
                                     ref={videoRef}
                                     className="w-full h-full object-cover"
-                                    src="https://res.cloudinary.com/datrmkk25/video/upload/v1731870165/timeline_ihifak.mp4"
+                                    src="https://res.cloudinary.com/datrmkk25/video/upload/v1780151588/sweetsq-vid_jd7hvh.mp4"
                                     loop
                                     muted
                                     autoPlay

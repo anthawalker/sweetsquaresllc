@@ -37,12 +37,18 @@ export const FLAVORS = [
     "Strawberry Cheesecake",
     "Turtle Pecan",
     "Banana Foster",
+    "Chocolate Chip Biscoff ",
+    "Strawberry Glaze Biscoff ",
+    "Sweet Potato Honey Bun",
+    "Blueberry Lemon Glaze",
+    "Butter Scotch Biscoff",
+    "Banana crunch Biscoff",
 ];
 
 export const SIZES = [
     { name: "Half Dozen", price: 18 },
     { name: "Dozen", price: 34 },
-    { name: "Box (30 count)", price: 60 },
+    { name: "Box (30 count)", price: 70 },
 ];
 
 export const ADD_INS = ["Pecans", "Walnuts"];
