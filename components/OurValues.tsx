@@ -22,7 +22,7 @@ export default function OurValues() {
                     <div className="flex flex-col md:flex-row items-center gap-0 md:gap-8 mt-0 md:mt-8">
                         <div className="md:w-1/2 items-center p-8">
                             <Image
-                                src="/static/sweetsq-1.png"
+                                src="/static/sweetsq.png"
                                 alt="cookie squares"
                                 width={500}
                                 height={280}
